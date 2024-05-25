@@ -1,0 +1,5 @@
+creating react app
+
+1: npx create-react-app 01basicreact
+
+2: 

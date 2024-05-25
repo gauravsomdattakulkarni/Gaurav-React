@@ -1,0 +1,12 @@
+create-react-app react
+Entry Point For React App : package.json 
+
+1 : run app  -> npm run start
+2 : Build App -> npm run build
+
+Vite Project
+
+1: npm create vite@latest
+	-> enter name , select language , framework
+2: npm install
+3: npm run dev
