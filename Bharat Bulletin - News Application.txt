@@ -1,0 +1,17 @@
+Bharat Bulletin - News Application
+
+Bharat Bulletin is a comprehensive news website designed to provide users with up-to-date and reliable information on various topics including politics, business, technology, entertainment, and more. Leveraging the power of React Router DOM, the website offers seamless navigation with features like <Link> and <NavLink> for efficient routing.
+
+Technologies Used:
+1 : React.js
+2 : React Router DOM
+3: JavaScript
+4: HTML
+5: CSS
+6: Bootstrap
+
+-> Implemented dynamic loading using useLoaderData() to fetch news articles asynchronously, enhancing user experience by displaying a loading spinner until data is fully loaded.
+
+-> Utilized useEffect() hook to manage component lifecycle and trigger actions based on changes in news data, ensuring smooth transitions and updates.
+
+-> Leveraged useState() hook to manage loading state, providing real-time feedback to users while fetching news data.

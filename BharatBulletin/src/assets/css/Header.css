@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Resetting default styles */
+body, nav, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333; /* Dark background color */
+    padding: 1rem; /* Padding for the navbar */
+}
+
+.navbar-brand {
+    color: #fff; /* White text color for the brand */
+    font-size: 1.5rem; /* Larger font size for the brand */
+    font-weight: bold; /* Bold font weight */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar-toggler {
+    border: none; /* Remove default border */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 0.5%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.navbar-collapse {
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.navbar-nav {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Display items in a row */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-item {
+    margin-left: 1rem; /* Space between items */
+}
+
+.nav-link {
+    color: #fff; /* White text color */
+    font-size: 1rem; /* Standard font size */
+    text-decoration: none; /* Remove underline */
+    padding: 0.5rem 1rem; /* Padding for clickable area */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.nav-link:hover {
+    background-color: #555; /* Darker background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+.nav-link.disabled {
+    color: #ccc; /* Lighter color for disabled links */
+    cursor: not-allowed; /* Not allowed cursor */
+}
+
+.nav-item.active .nav-link {
+    background-color: #555; /* Darker background for active link */
+    border-radius: 5px; /* Rounded corners for active link */
+}
